@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Signup Page</title>
+    <style>
+        .container {
+            margin: auto;
+            width: 50%;
+            padding: 50px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f2f2f2;
+        }
+        .input-field {
+            margin-bottom: 50px;
+        }
+        .input-field label {
+            display: block;
+            font-weight: normal;
+            margin-bottom: 5px;
+        }
+        .input-field input {
+            width: 50%;
+            padding: 5px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .input-field select {
+            width: 50%;
+            padding: 5px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .submit-btn {
+            display: block;
+            width: 50%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Signup Form</h2>
+        <form>
+            <div class="input-field">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required>
+            </div>
+            <div class="input-field">
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required>
+            </div>
+            <div class="input-field">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="input-field">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="input-field">
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+            <div class="input-field">
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="input-field">
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="input-field">
+                <label for="date-of-birth">Date of Birth:</label>
+                <input type="date" id="date-of-birth" name="date-of-birth" required>
+            </div>
+            <div class="input-field">
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" rows="4" required></textarea>
+            </div>
+            <div class="input-field">
+                <label for="country">Country:</label>
+                <input type="text" id="country" name="country" required>
+            </div>
+            <div class="input-field">
+                <label for="interests">Interests:</label>
+                <input type="text" id="interests" name="interests" required>
+            </div>
+            <div class="input-field">
+                <label for="education">Education:</label>
+                <input type="text" id="education" name="education" required>
+            </div>
+            <div class="input-field">
+                <label for="occupation">Occupation:</label>
+                <input type="text" id="occupation" name="occupation" required>
+            </div>
+            <div class="input-field">
+                <label for="website">Website:</label>
+                <input type="url" id="website" name="website" required>
+            </div>
+            <div class="input-field">
+                <label for="social-media">Social Media Links:</label>
+                <input type="text" id="social-media" name="social-media" required>
+            </div>
+            <div class="input-field">
+                <label for="bio">Bio:</label>
+                <textarea id="bio" name="bio" rows="4" required></textarea>
+            </div>
+            <input type="submit" value="Submit" class="submit-btn">
+        </form>
+    </div>
+</body>
+
+</html>
